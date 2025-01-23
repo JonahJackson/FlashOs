@@ -1,0 +1,47 @@
+/*
+	==Theme==
+	@name              FlashOs
+	@version           0.0.1
+	@description       For the Steam like Apperance Designed to be used with FlashOs
+	@author            Jinuine
+	@launcher-version  9.0.3
+	==/Theme==
+*/
+
+.title-bar__title{
+    display: none;
+}
+
+.title-bar__button-bar{
+    position: absolute;
+    right: 0;
+    top:1px;
+}
+.title-bar::before{
+    left: 0;
+    content: "Flashpoint For FlashOs";
+}
+
+
+
+.update-metadata-box{
+    width: 30%;
+    position: absolute;
+    top: 22%;
+}
+.update-metadata-button-inner{
+    transform: scale(.8);
+}
+.home-page__box--quickStart{
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    width: 25%;
+}
+.home-page__box--notes{
+    display: none;
+}
+
+.fp-logo--animated{
+    animation-fill-mode: unset;
+}
